@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册页面</title>
+	<meta name="description" content="钦阳优选xuyq.xyz-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!" />
+	<meta name="Keywords" content="网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配件,手表,存储卡,钦阳优选" />
+	<!-- 初始化css -->
+	<link rel="stylesheet" href="css/base.css">
+	<!-- register css文件 -->
+	<link rel="stylesheet" href="css/register.css">
+	<script src="js/register.js"></script>
+</head>
+<body>
+	<div class="w">
+		<!-- header -->
+		<div class="header">
+			<div class="logo">
+				<a href="index.html">
+				   <img src="img/logo.png" alt="">
+				</a>
+			</div>
+		</div>
+		<!-- registerarea -->
+		<div class="registerarea">
+			<h3>
+				注册新用户
+				<em>
+					我有账号，去<a href="login.html">登陆</a>
+				</em>
+			</h3>
+			<div class="reg_form">
+				
+			    <form action="demo.php">
+			    	<ul>
+					<li>
+						<label for="nam">用户名:</label>
+						<input type="text" class="inp" id="nam">
+						<span class="message" id="nameresult">		
+							<i class="message_icon"></i>
+						用户名只能为中文
+						</span>
+					</li>
+					<li>
+						<label for="tel">手机号:</label>
+						<input type="text" class="inp" id="tel">
+						<span class="message" id="phone_result">		
+							<i class="message_icon"></i>
+						请输入11位手机号码
+						</span>
+					</li>
+					<li>
+						<label for="">短信验证码:</label>
+						<input type="text" class="inp">
+						<button class="fasong">发送</button>
+					</li>
+					<li>
+						<label for="">登陆密码:
+							<img src="img/close.png" alt="" id="eye1">
+						</label>
+						<input type="password" class="inp" id="pwd1">
+						<span class="message" id="checks">		
+							<i class="message_icon"></i>
+						请输入6~16位密码 
+						</span>
+					</li>
+					<li class="safe">
+						安全程度 
+						<em class="ruo">弱</em>
+						<em class="zhong">中</em>
+						<em class="qiang">强</em>	
+					</li>
+
+					<li>
+						<label for="">确认密码:
+							<img src="img/close.png" alt="" id="eye2">
+						</label>
+						<input type="password" class="inp" id="pwd2">
+						<span class="message" id="check">		
+							<i class="message_icon" ></i>
+						请再次确认您的密码
+						</span>
+					</li>
+					<li class="agree">  
+
+					  <input type="checkbox" >同意协议并注册
+					  <a href="#">《知果果用户协议》</a>
+					</li>
+					<li>
+						<!-- <input type="submit" value="完成注册" class="over"> -->
+						<button class="over">完成注册</button>
+					</li>
+				</ul>
+			    </form>
+			</div>
+			<div class="alarm w"></div>
+			<script>
+
+			</script>
+		</div>
+		<div class="footer">
+			<p class="links">
+				关于我们  |  联系我们  |  联系客服  |  商家入驻  |  营销中心  |  手机品优购  |  友情链接  |  销售联盟  |  品优购社区  |  品优购公益  |  English Site  |  Contact U
+			</p>
+
+			<p class="copyright">
+				地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn <br>
+京ICP备08001421号京公网安备110108007702
+			</p>
+		</div>
+	</div>
+</body>
+</html>
